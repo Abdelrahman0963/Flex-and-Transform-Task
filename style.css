@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+body {
+  background: #fff;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.text {
+  padding-left: 3.8%;
+}
+.text h3 {
+  font-size: 40px;
+  font-weight: 400;
+}
+.text p {
+  font-size: 16px;
+  font-weight: 500;
+}
+.shape {
+  display: flex;
+  width: 100%;
+  background: #fb5607;
+  justify-content: center;
+  height: 150px;
+  align-items: center;
+}
+.cards {
+  width: 95%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  position: relative;
+}
+.cards img {
+  width: 295px;
+  height: 350px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.cardOne {
+  position: absolute;
+  left: 5px;
+  top: -153px;
+  text-align: center;
+}
+.cardTow {
+  position: absolute;
+  left: calc(25% + 5px);
+  bottom: -305px;
+  text-align: center;
+}
+.cardThree {
+  position: absolute;
+  right: calc(25% + 5px);
+  top: -153px;
+  text-align: center;
+}
+.cardFour {
+  position: absolute;
+  right: 5px;
+  bottom: -305px;
+  text-align: center;
+}
